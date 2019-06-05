@@ -3,14 +3,13 @@ import java.io.*;
 import java.util.Random;
 
 /**
- * ali云文件存储服务器工具类
+ * 文件上传工具测试用例
  *
- * @author zhang.shilin <br > 27/09/2018 11:04
- * @Email zhang.shilin@yilutong.com
- * @see #uploadImage 图片上传
+ * @author MinGRn <br > MinGRn97@gmail.com
+ * @date 2019/6/5 20:26
  */
-public class AliUploadUtil {
-    private AliUploadUtil() {
+public class UploadUtil {
+    private UploadUtil() {
     }
 
     /**
