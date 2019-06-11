@@ -28,4 +28,12 @@ public enum DrawChartFactory {
     public DrawLineChart createLine(int height, int wight) {
         return new DrawLineChart(height, wight);
     }
+
+    public DrawSpiderWebChart createSpiderWeb(){
+        return new DrawSpiderWebChart();
+    }
+
+    public DrawSpiderWebChart createSpiderWeb(int height, int wight){
+        return new DrawSpiderWebChart(height, wight);
+    }
 }
